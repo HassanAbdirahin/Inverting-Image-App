@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: poppins, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+img{
+    width: 300px;
+    height: 100%;
+    margin: 10px 0;
+}
+
+.result {
+    filter: invert(0.85);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========== Breakpoints ========= */
+@media(max-width:750px){
+    .main{
+        grid-template-columns: 1fr;
+        gap: 80px;
+    }
+
+    .result{
+        margin-left: 10px;
+    }
+}
+
+@media(max-width:470px){
+    .two{
+        margin-top: 50px;
+    }
+}
